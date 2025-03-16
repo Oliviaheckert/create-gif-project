@@ -6,7 +6,7 @@ filenames = ['pics/roar1.png', 'pics/roar2.png', 'pics/roar3.png', 'pics/roar4.p
 images = []
 
 # Function to resize images to a common size
-def process_image(image_path, target_size=(500, 300)):
+def process_image(image_path, target_size=(2600, 1560)):
     with Image.open(image_path) as img:
         # Convert image to RGB mode if it's not already
         if img.mode != 'RGB':
